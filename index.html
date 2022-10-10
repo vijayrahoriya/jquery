@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         body{
+            height: 3000px;
+         }
+         .red{
+            background: red;
+            color: #fff;
+         }
+         .yellow{
+            background: yellow;
+         }
+         .box{
+            border: 2px solid orangered;
+            padding: 20px;
+            width: 50%;
+         }
+         .box2{
+            border: 2px solid orangered;
+            padding: 20px;
+            width: 50%;
+         }
+    </style>
+    <title>jquery-1</title>
+</head>
+<body>
+    <form action="" class="sform">
+        <input type="text" name="" id="" placeholder="Name">
+        <input type="email" name="" id="" placeholder="email">
+        <select name="country" id="scountry">
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Bangladesh">Bangladesh</option>
+        </select>
+        <input type="submit" name="" id="" value="submit">
+    </form>
+    <button id="but">Click Me</button>
+    <div class="box" id="first">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, perspiciatis.</p>
+    </div>
+    <div class="box2">
+        <p>Lorem ipsum dolor sit.</p>
+    </div>
+    <div class="list" id="list">
+        <ul>
+            <li>orange</li>
+            <li>red</li>
+            <li>blue</li>
+            <li>pink</li>
+        </ul>
+    </div>
+</body>
+<script src="jquery-3.6.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // var a = $('.box').html()
+        // console.log(a)
+        //  $('ul li').css("color", "red")
+        //  $('li:first').css("color", "red")
+        //  $('li:first-child').css("color", "red")
+        //  $('ul li:eq(2)').css("color", "red");
+        //  $('ul li:gt(1)').css("color", "red");
+        //  $('ul li:lt(2)').css("color", "red");
+
+        // mouse events 
+
+        // $('#but').click(function(){
+        //     let a = $('.box').html()
+        //     console.log(a)
+        // })
+        // $('#but').contextmenu(function(){
+        //     $('#but').css("background", "purple")
+        // })
+        // $('#but').dblclick(function(){
+        //     $('#but').css("background", "yellowgreen")
+        // })
+
+        // keyboard events
+
+        // $('body').keypress(function(){
+        //     $(this).css("background", "cyan")
+        // })
+        // $('body').keyup(function(){
+        //     $(this).css("background", "none")
+        // })
+
+        // form events 
+
+        // $('input').focus(function(){
+        //     $(this).css('background', 'orange')
+        // })
+        // $('input').blur(function(){
+        //     $(this).css('background', 'none')
+        // })
+        // $('#scountry').change(function(){
+        //     $(this).css('background', 'green')
+        // })
+        // $('#scountry').change(function(){
+        //     let a = $(this).val();
+        //     $('#but').html(a)
+        // })
+
+        // $('input').select(function(){
+        //    let a = $(this).val();
+        //    $('#but').html(a)
+        // })
+
+        // $('form').submit(function(){
+        //     setTimeout(function(){
+        //         alert("form has been submited")
+        //     }, 2000)
+        // })
+
+
+        // window event
+
+        // $(window).scroll(function(){
+        //     alert("window is scrolling")
+        // })
+        // $(window).resize(function(){
+        //     alert("window is resizeing")
+        // })
+        // $(window).load(function(){
+        //     alert("window is resizeing")
+        // })
+
+        // get methods
+
+        // $("#but").click(function(){
+        //     let a = $('#first').text()
+        //     console.log(a)
+        // })
+
+        // $("#but").click(function(){
+        //     let a = $('#first').html()
+        //     console.log(a)
+        // })
+        // $("#but").click(function(){
+        //     let a = $('#first').attr('class')
+        //     console.log(a)
+        // })
+        // $("#but").click(function(){
+        //     let a = $('input').val()
+        //     console.log(a)
+        // })
+
+        // $('.sform').submit(function(){
+        //     let a = $('input').val()
+        //     alert(a)
+        //     let b = $('select').val()
+        //     alert(b)
+        // })
+
+        // class methods
+
+        // $('#but').click(function(){
+        //     $('h1').addClass('red yellow')
+        // })
+        // $('#but').click(function(){
+        //     $('h1').removeClass("yellow")
+        // })
+
+        // $('#but').click(function(){
+        //     $('h1').toggleClass('red')
+        // })
+
+        // css methods
+
+        // $('#but').click(function(){
+        //     $('h1').css('background', 'red')
+        // })
+        // $('#but').click(function(){
+        //     $('h1').css({'background': 'red',
+        //                 'color': 'white', 'display':'inline-block','padding': '10px','border-radius': '.5rem'})
+        // })
+
+        // on methods
+
+        // $('h1').on('mouseenter mouseout', function(){
+        //     $(this).toggleClass("red")
+        // })
+
+        // $('h1').on({
+        //     click : function(){
+        //         $(this).css({
+        //             'background': 'red','border-radius': '.5rem', 'color': 'white','padding': '10px'
+        //         })
+        //         // alert("hello")
+        //     },
+        //     mouseenter : function(){
+        //         console.log("mouse is enterd in h1")
+        //     },
+        //     mouseover : function(){
+        //         console.log("mouse is overed from h1")
+        //     }
+        // })
+
+        // $('#but').click(function(){
+        //     $('h1').off('mouseover mouseenter')
+        // })
+
+
+        // append, prepend, before and after methods
+
+        // $('#but').click(function(){
+        //     $('.box').append('<h2>Hello</h2>')
+        // })
+        // $('#but').click(function(){
+        //     $('.box').prepend('<h2>Hello</h2>')
+        // })
+        // $('#but').click(function(){
+        //     $('.box').before('<h2>Hello</h2>')
+        // })
+        // $('#but').click(function(){
+        //     $('.box').after('<h2>Hello</h2>')
+        // })
+
+        // remove and empty methods
+
+        // $('#but').click(function(){
+        //     $('.box').empty()
+        // })
+        // $('#but').click(function(){
+        //     $('.box').remove()
+        // })
+
+        // appendTo and prependTo methods
+
+        // $('#but').click(function(){
+        //     $("<h1>Hello</h1>").appendTo('.box')
+        // })
+        // $('#but').click(function(){
+        //     $("<h1>Hello</h1>").prependTo('.box')
+        // })
+
+        // $('#but').click(function(){
+        //     $('<h1>Hello this is vijay</h1><p>I am a student and i am good at learnig new things</p>').prependTo(".box")
+        // })
+        // $('#but').click(function(){
+        //     $('<h1>Hello this is vijay</h1><p>I am a student and i am good at learnig new things</p>').appendTo(".box")
+        // })
+
+        // clone() methods
+
+        // $('#but').click(function(){
+        //     $('.box h1').clone().prependTo('.box2')
+        // })   
+    })
+</script>
+</html>
