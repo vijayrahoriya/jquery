@@ -52,7 +52,67 @@ $(document).ready(function(){
     //     $('<h2>hello</h2><p>hello this is another para</p>').prependTo('.box')
     // })
 
-    $('.but').click(function(){
-        $(".box h1").clone().appendTo('.for')
-    })
+    // $('.but').click(function(){
+    //     $(".box h1").clone().appendTo('.for')
+    // })
+
+    // $(".but").click(function(){
+    //     $(".box p:first").replaceWith("<div></div>")
+    // })
+    // $('.but').click(function(){
+    //     $("<h3>this is replceAll</h3>").replaceAll(".box p")
+    // })
+    // $('.but').click(function(){
+    //     $('.box p').wrap('<div></div>')
+    // })
+    // $('.but').click(function(){
+    //     $('.box p').unwrap()
+    // })
+
+    // $(".but").click(function(){
+    //     $('.box p').wrapAll('<div></div>')
+    // })
+
+    // $(".but").click(function(){
+    //     $(".box p").wrapInner("<span></span>")
+    // })
+
+    // $('.but').click(function(){
+    //     console.log($(".box").height())
+    //     console.log($(".box").innerHeight())
+    //     console.log($(".box ").outerHeight())
+    //     console.log($(".box ").outerHeight(true))
+    // })
+    // $('.but').click(function(){
+    //     console.log($(".box").width())
+    //     console.log($(".box").innerWidth())
+    //     console.log($(".box ").outerWidth())
+    //     console.log($(".box ").outerWidth(true))
+    // })
+
+    // $('.but').click(function(){
+    //     let x  = $('.box h1').position()
+    //     console.log('top : ' + x.top )
+    //     console.log('left : ' + x.left)
+    // })
+    // $('.but').click(function(){
+    //     let x  = $('.box h1').offset()
+    //     console.log('top : ' + x.top )
+    //     console.log('left : ' + x.left)
+    // })
+
+    
+        // console.log($(window).scrollTop())
+        // console.log($(window).scrollLeft())
+
+    // $(window).scroll(function(){
+    //     $('.box').html('');
+    //     $('.box').append("top: " + $(window).scrollTop())
+    //     $('.box').append("<br>left: " + $(window).scrollLeft())
+    // })
+    // $('.but').click(function(){
+    //     console.log("top : " + $(window).scrollTop(500))
+    // })
+
+    
 })

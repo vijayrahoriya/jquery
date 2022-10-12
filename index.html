@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
          body{
-            height: 3000px;
-            width: 6000px;
+            /* height: 3000px; */
+            /* width: 6000px; */
          }
          .red{
             background: red;
@@ -22,6 +22,7 @@
             padding: 20px;
             margin: 20px;
             width: 50%;
+            position: relative;
             /* position: fixed;
             bottom: 20px; */
          }
@@ -53,6 +54,7 @@
         <input type="submit" name="" id="" value="submit">
     </form>
     <button id="but">Click Me</button>
+    <button id="show">show</button>
     <div class="box" id="first">
         <h1>Hello World</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, perspiciatis.</p>
@@ -126,7 +128,7 @@
         //    $('#but').html(a)
         // })
 
-        // $('form').submit(function(){
+        // $('.sform').submit(function(){
         //     setTimeout(function(){
         //         alert("form has been submited")
         //     }, 2000)
@@ -291,7 +293,7 @@
         // $('#but').click(function(){
         //     $('.box p').wrap('<div class="test"></div>')
         // })
-        // $('#but').click(function(){
+        // $('input').click(function(){
         //     $('.box p').unwrap()
         // })
 
@@ -348,6 +350,90 @@
         // $('#but').click(function(){
         //     $(window).scrollTop(400)
         //     $(window).scrollLeft(500)
+        // })
+
+        // hide() , show() & toggle() methods                                      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+        // $('#but').click(function(){
+        //     // $(".box h1").hide()
+        //     // $(".box").hide("slow")
+        //     // $(".box").hide(1000)
+        //     $('.box').hide(1000, function(){
+        //         alert("box has been hideen")
+        //     })
+        // })
+        // $('input').click(function(){
+        //     // $('.box h1').show()
+        //     // $(".box").show("slow")
+        //     // $('.box').show(1000)
+        //     $(".box").show(2000, function(){
+        //         alert("box has beeb shown")
+        //     })
+        // })
+
+        // $("#but").click(function(){
+        //     $('.box').toggle(1000)
+        // })
+
+        // fadeIn(), fadeOut(),fadeToggle() & fadeTo()                                 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+
+        // $('#but').click(function(){
+        //     $('.box').fadeOut(1000)
+        // })
+        // $('#show').click(function(){
+        //     $('.box').fadeIn(1000)
+        // })
+        // $('#but').click(function(){
+        //     $('.box').fadeToggle(1000)
+        // })
+
+        // $('#but').click(function(){
+        //     $('.box').fadeTo(2000, .2)
+        // })
+
+        // slideUp(), slideDown() & slideToggle()                                         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+        // $('#but').click(function(){
+        //     $('.box').slideUp(1000)
+        // })
+        // $('#show').click(function(){
+        //     $('.box').slideDown(1000)
+        // })
+        // $('#but').click(function(){
+        //     $('.box').slideToggle(1000)
+        // })
+
+        // animate() method                                                             >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+        // $('#but').click(function(){
+        //     $('.box').animate({
+        //         width: '500px',
+        //         left: '50px',
+        //         paddingLeft : '50px'
+        //     }, 1000)
+        //     // // $('.box').animate({left: '100px'});
+        //     // $('.box').animate({left: '100px'}, 2000);
+        //     // $('.box').animate({top: '100px'});
+        //     // $('.box').animate({width: '100px'});
+        // })
+
+        // stop() method                                                         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+        // $('#but').click(function(){
+        //     $('.box').animate({width: '500px'},3000)
+        //     $('.box').animate({top: '500px'},3000)
+        //     $('.box').animate({left: '500px'},3000)
+        // })
+        // $('#show').click(function(){
+        //     // $('.box').stop()
+        //     // $('.box').stop(true)
+        //     $('.box').stop(true,true)
+        // })
+
+        // jQuery chaining method                                               >>>>>>>>>>>>>>>>K>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+        // $('#but').click(function(){
+        //     $('.box').css('background','orange').slideUp(1000).slideDown(1000)
         // })
     })
 </script>
