@@ -114,5 +114,75 @@ $(document).ready(function(){
     //     console.log("top : " + $(window).scrollTop(500))
     // })
 
+    // $('.but').click(function(){
+    //     $(".box").hide(1000,function(){
+    //         console.log('hidden')
+    //     })
+    // })
+    // $('#show').click(function(){
+    //     $('.box').show(1000,function(){
+    //         console.log('show')
+    //     })
+    // })
+    // $('.but').click(function(){
+    //     $('.box').toggle(1000,function(){
+    //         console.log("hidden")
+    //     })
+    // })
+
+    // $('.but').click(function(){
+    //     $('.box').fadeOut(1000,function(){
+    //         console.log("fadeout")
+    //     })
+    // })
+    // $('#show').click(function(){
+    //     $('.box').fadeIn(1000,function(){
+    //         console.log('fadein')
+    //     })
+    // })
+    // $('.but').click(function(){
+    //     $('.box').fadeToggle(1000)
+    // })
+    // $('.but').click(function(){
+    //     $('.box').fadeTo(1000, .5,function(){
+    //         console.log("opacity .5 tak fade")
+    //     })
+    // })
+
+    // $('.but').click(function(){
+    //     $('.box').slideUp(1000,function(){
+    //         console.log("slideUp")
+    //     })
+    // })
+    // $("#show").click(function(){
+    //     $('.box').slideDown(1000,function(){
+    //         console.log("slidDown")
+    //     })
+    // })
+
+    // $('.but').click(function(){
+    //     $('.box').animate({
+    //         width : "1000px",
+    //         height: "500px",
+    //         fontSize: "2rem"
+    //     },2000,function(){
+    //         console.log("animate done")
+    //     })
+    // })
+    // $('.but').click(function(){
+    //     $('.box').animate({left: '100px'},3000)
+    //     $('.box').animate({top: '100px'},3000)
+    //     $('.box').animate({width: '100px'},2000)
+    //     $('.box').animate({height: '100px'})
+    // })
+    // $('#show').click(function(){
+    //     // $('.box').stop()
+    //     // $('.box').stop(true)
+    //     $('.box').stop(true,true)
+    // })
+
+    // $('.but').click(function(){
+    //     $('.box').css('background','cyan').fadeTo(1000, .5).animate({width: '1000px'})
+    // })
     
 })

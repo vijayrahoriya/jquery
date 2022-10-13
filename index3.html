@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .main-outer{
+            width: 25%;
+            background: orange;
+            position: relative;
+            padding: 20px 10px;
+            border: 2px solid #000;
+        }
+        .outer{
+            background: yellow;
+            padding: 20px 10px;
+            position: relative;
+            border: 2px solid #000;
+        }
+        .inner{
+            background: gold;
+            padding: 20px 10px;
+            border: 2px solid #000;
+        }
+        .inner div{
+            background: red;
+            height: 50px;
+            margin: 20px 10px;
+            border: 2px solid #000;
+        }
+        .box{
+            border: 2px solid #000;
+            padding: 20px;
+            border-radius: .5rem;
+            background: red;
+            width: 50%;
+        }
+        .box2{
+            border: 2px solid #000;
+            padding: 20px;
+            border-radius: .5rem;
+            background: orange;
+            width: 50%;
+        }
+    </style>
+    <title>ancestors methods</title>
+</head>
+<body>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, magni!</p>
+    </div>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>blog</li>
+        <li>contact</li>
+    </ul>
+    <div class="box2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, animi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laudantium atque cumque corrupti obcaecati cum?</p>
+    </div>
+    <div class="main-outer">
+        <div class="outer">
+            <div class="inner">
+                <div class="child-1"></div>
+                <div class="child-2"></div>
+                <div class="child-3"></div>
+                <div class="child-4"></div>
+                <div class="child-5"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jquery-3.6.1.min.js"></script>
+<script src="ancestor.js"></script>
+</html>
