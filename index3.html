@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .main-outer{
             width: 25%;
             background: orange;
@@ -31,10 +35,15 @@
         }
         .box{
             border: 2px solid #000;
+            margin: 20px;
             padding: 20px;
             border-radius: .5rem;
             background: red;
             width: 50%;
+            position: relative;
+        }
+        .box p{
+            margin: 20px;
         }
         .box2{
             border: 2px solid #000;
@@ -47,6 +56,8 @@
     <title>ancestors methods</title>
 </head>
 <body>
+    <button class="but">click me</button>
+    <button class="show">show</button>
     <div class="box">
         <p>Lorem ipsum dolor sit amet consectetur.</p>
         <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, magni!</p>
@@ -58,9 +69,11 @@
         <li>contact</li>
     </ul>
     <div class="box2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, animi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laudantium atque cumque corrupti obcaecati cum?</p>
+        <p>Lorem ipsum dolor <span></span>sit amet consectetur adipisicing elit. Dolore, animi.</p>
+        <p>Lorem ipsum dolor sit amet,<span class="test"></span> consectetur adipisicing elit. Placeat laudantium atque cumque corrupti obcaecati cum?</p>
     </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, in!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, in!</p>
     <div class="main-outer">
         <div class="outer">
             <div class="inner">

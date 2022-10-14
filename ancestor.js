@@ -35,4 +35,36 @@ $(document).ready(function(){
     // $('p').filter('.test').css('color','cyan')
     // $('p').not('.test').css('color','cyan')
     // $('p').slice(1,3).css('color','cyan')
+
+    // has() method
+
+    // $('p').has('span').css('background','cyan')
+    // $('p').has('.test').css('background','cyan')
+    // if($('p').parent().is('div')){
+    //     console.log($('p').parent().is('div'))
+    // }
+    // $('p').click(function(){
+    //     if($(this).parent().is('div')){
+    //         $(this).css('background','cyan')
+    //     }
+    // })
+
+    // each() methods
+
+    // $('li').each(function(){
+    //     console.log($(this).text())
+    // })
+    // $('li').each(function(){
+    //     $(this).text("hello")
+    // })
+
+    // evnet pageX and pageY
+
+    // $(document).mousemove(function(event){
+    //     // console.log($('.box').text(event.pageX))
+    //     // $('.box').text('x : ' + event.pageX + ' Y : ' + event.pageY)
+    //     let x = event.pageX;
+    //     let y = event.pageY;
+    //     $('.box').offset({top:y,left:x})
+    // })
 })
