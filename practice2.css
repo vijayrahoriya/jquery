@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #333;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .big{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.container .big .card-1{
+    width: 20%;
+    padding: 40px;
+    border-radius: .5rem;
+    text-align: center;
+}
+.card-1 i{
+    font-size: 3rem;
+    color: rgb(192, 18, 47);
+}
+.card-1 h5{
+    margin: 15px 0;
+}

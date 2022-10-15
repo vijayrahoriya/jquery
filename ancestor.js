@@ -63,8 +63,30 @@ $(document).ready(function(){
     // $(document).mousemove(function(event){
     //     // console.log($('.box').text(event.pageX))
     //     // $('.box').text('x : ' + event.pageX + ' Y : ' + event.pageY)
-    //     let x = event.pageX;
-    //     let y = event.pageY;
-    //     $('.box').offset({top:y,left:x})
+    //     // let x = event.pageX;
+    //     // let y = event.pageY;
+    //     // $('.box').offset({top:y,left:x})
+    // })
+
+    // event type method
+
+    // $('.box').on('click mouseover mouseout dblclick',function(event){
+    //     $('.box2').html('event : ' + event.type)
+    // })
+
+    // event which method
+
+    // $('.box').on('mouseover mouseout',function(event){
+    //     $('.box2').html(event.type + " : " + event.which)
+    // })
+    // $('body').on('keydown',function(event){
+    //     $('.box2').html(event.type + ' : ' + event.which)
+    // })
+
+    // event target
+
+    // $('body').on('click',function(event){
+    //     // $('.box2').html('target event : ' + event.target.nodeName)
+    //     $('.box2').html('target event : ' + event.target.innerHTML)
     // })
 })

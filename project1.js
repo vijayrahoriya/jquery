@@ -104,35 +104,36 @@ $(document).ready(function(){
 // let a = new manager("vijay");
 // a.info()
 
-class employee{
-    constructor(name,age,salary){
-        this.empname = name;
-        this.emage  = age;
-        this.empsalary = salary;
-        console.log('constructor employee')
-    }
-    info(){
-        console.log(`      employee class
+// class employee{
+//     constructor(name,age,salary){
+//         this.empname = name;
+//         this.emage  = age;
+//         this.empsalary = salary;
+//         console.log('constructor employee')
+//     }
+//     info(){
+//         console.log(`      employee class
 
-        Name : ${this.empname}
-        age  : ${this.emage} 
-        salary : ${this.empsalary}`)
-    }
-}
-class manager extends employee{
-    info(){
-        let ta = 1000;
-        let pa = 300;
-        let totalsalary = this.empsalary + pa + ta
-        console.log(`      manager class
+//         Name : ${this.empname}
+//         age  : ${this.emage} 
+//         salary : ${this.empsalary}`)
+//     }
+// }
+// class manager extends employee{
+//     info(){
+//         let ta = 1000;
+//         let pa = 300;
+//         let totalsalary = this.empsalary + pa + ta
+//         console.log(`      manager class
 
-        Name : ${this.empname}
-        age  : ${this.emage} 
-        salary : ${totalsalary}`)
-    }
+//         Name : ${this.empname}
+//         age  : ${this.emage} 
+//         salary : ${totalsalary}`)
+//     }
 
-}
-let a = new employee("arun",20,20000)
-let b = new manager("vijay",20,20000)
-a.info();
-b.info();
+// }
+// let a = new employee("arun",20,20000)
+// let b = new manager("vijay",20,20000)
+// a.info();
+// b.info();
+
