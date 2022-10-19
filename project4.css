@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    color: #fff;
+    min-height: 100vh;
+    font-family: "montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    background: #f8f6f6;
+    border-radius: 6px;
+    box-shadow: 0 0 25px 5px rgba(82,86,94,.2);
+}
+.container .color-preview{
+    width: 280px;
+    background: #ed145b;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.controls{
+    width: 430px;
+    padding: 60px;
+    height: 200px;
+    background: #f8f6f6;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.input-box{
+    width: 100%;
+    display: flex;
+}
+.input-box input{
+    padding: 15px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: #ed145b;
+    border: 2px solid #ed145b;
+    outline: none;
+}
+.copy-btn{
+    padding: 10px 25px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #ed145b;
+    color: #f8f6f6;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+.genrate-btn{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    color: #f8f6f6;
+    background: #000;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.copy-btn:active,
+.genrate-btn:active{
+    opacity: .9;
+}
+.alert-msg{
+    padding: 15px;
+    width: 400px;
+    color: #f8f6f6;
+    background: #363636;font-size: 22px;
+    font-weight: 400;
+    border-radius: 6px;
+    text-align: center;
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+
+.bounce-effect{
+    animation: slideUp 2s  ease-in;
+}
+
+@keyframes slideUp{
+    0%{
+        opacity: 0;
+        bottom: -100px;
+    }
+    20%{
+        opacity: 1;
+        bottom: 20px;
+    }
+    90%{
+        opacity: 1;
+        bottom: 20px;
+    }
+    100%{
+        opacity: 0;
+    }
+}

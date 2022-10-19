@@ -89,4 +89,30 @@ $(document).ready(function(){
     //     // $('.box2').html('target event : ' + event.target.nodeName)
     //     $('.box2').html('target event : ' + event.target.innerHTML)
     // })
+
+    //preventDefoult method
+
+    // $('#result').click(function(e){
+    //     e.preventDefault();
+    //     let a = e.isDefaultPrevented();
+    //     $(".box").append(a)
+    // })
+
+    //propagation method
+
+    // $('.box').click(function(e){
+    //     alert("you clicked on div")
+    // })
+    // $('.box p').click(function(e){
+    //     e.stopPropagation();
+    //     alert("you clicked on p : " + e.isPropagationStopped())
+    // })
+
+    // event.data
+
+    // $('p').each(function(i){
+    //     $(this).on('click',{value : i},function(e){
+    //         alert(e.data.value)
+    //     })
+    // })
 })
