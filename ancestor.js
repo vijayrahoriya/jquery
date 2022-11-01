@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    // $('.child-2').parent().css('background','orange')
-    // $('.child-2').parents().css('background','orange')
-    // $('.child-2').parents('.outer').css('background','orange')
-    // $(".child-2").parentsUntil('.outer').css('background','orange')
-    // $(".child-2").parentsUntil('.main-outer').css('background','orange')
+    // $('.child-2').parent().css('background','cyan')
+    // $('.child-2').parents().css('background','cyan')
+    // $('.child-2').parents('.outer').css('background','cyan')
+    // $(".child-2").parentsUntil('.outer').css('background','cyan')
+    // $(".child-2").parentsUntil('.main-outer').css('background','cyan')
     // $('.child-2').offsetParent().css('background','red')
     // $('.child-2').closest('div').css('background','cyan')
 
@@ -62,10 +62,10 @@ $(document).ready(function(){
 
     // $(document).mousemove(function(event){
     //     // console.log($('.box').text(event.pageX))
-    //     // $('.box').text('x : ' + event.pageX + ' Y : ' + event.pageY)
-    //     // let x = event.pageX;
-    //     // let y = event.pageY;
-    //     // $('.box').offset({top:y,left:x})
+    //     $('.box').text('x : ' + event.pageX + ' Y : ' + event.pageY)
+    //     let x = event.pageX;
+    //     let y = event.pageY;
+    //     $('.box').offset({top:y,left:x})
     // })
 
     // event type method
