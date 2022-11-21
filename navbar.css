@@ -1,0 +1,36 @@
+.header{
+    background: #fff;
+}
+.header li{
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.top ul{
+    box-shadow: 0 0 5px 0 #aaa;
+    padding: 10px;
+}
+.top{
+    width: 20%;
+    height: 224px;
+}
+
+.box li:hover{
+    color: red;
+}
+.box2 li:hover{
+    color: red;
+}
+.box3 li:hover{
+    color: red;
+}
+.box4 li:hover{
+    color: red;
+}
+.box5 li:hover{
+    color: red;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
